@@ -2,14 +2,17 @@
 
 public class Checker
 {
-	public Checker()
-	{
-	}
+	public int Input { get; set; }
+	public int ForCheck { get; set; }
+	public int Output { get; set; }
 
-	public bool Check(int input, int generated)
+	public Checker(int input, int forCheck)
 	{
-		if (input == generated)
-			return true;
-		return false;
-	}
+		Input = input;
+		ForCheck = forCheck;
+		Output = Input.CompareTo(ForCheck);
+
+    }
+
+
 }

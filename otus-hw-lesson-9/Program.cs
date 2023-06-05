@@ -1,6 +1,65 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
+var sets = new Settings();
+
+var random = new RandomNumber(sets.MinNumber, sets.MaxNumber);
+
+Console.WriteLine($"угадайте число от {sets.MinNumber} до {sets.MaxNumber} за {sets.Steps} попытки");
+
+Console.WriteLine(random.Number);
+
+for (int i = 0; i < sets.Steps; i++)
+{
+    Console.WriteLine("Введите число");
+    int Input = int.Parse(Console.ReadLine());
+    var dd = new Checker(Input, random.Number);
+    var ff = new Messager();
+    ff.Message(dd.Output);
+    var vv = new Validator(dd.Output);
+    if (vv.Validation)
+        break;
+    if (i == sets.Steps - 1)
+        Console.WriteLine("Попытки закончились");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+int first = 5;
+int second = 5;
+
+
+Console.WriteLine(first.CompareTo(second));
+
+
+Console.ReadKey();
+
 var rr = new RandomNumber();
 var dd = new Checker();
 int step = 5;
@@ -17,28 +76,11 @@ for (int i = 0; i < step; i++)
     Console.WriteLine("Введите число");
     int Input = int.Parse(Console.ReadLine());
     if (dd.Check(Input, rr.Number))
-    {
-        Console.WriteLine("Вы угадали");
         break;
-    }
-    else
-    {
-        
-        
-        if (i == step - 1)
-            Console.WriteLine("Попытки закончились");
-        else if (Input < rr.Number)
-            Console.WriteLine("Ввели меньше");
-        else
-            Console.WriteLine("Ввели больше");
-            
-
-
-    }
-
+    
 
 }
 
-
+*/
 
 Console.ReadKey();
