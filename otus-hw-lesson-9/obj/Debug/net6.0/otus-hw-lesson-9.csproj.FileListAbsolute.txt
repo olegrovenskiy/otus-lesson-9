@@ -1,0 +1,15 @@
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\bin\Debug\net6.0\otus-hw-lesson-9.exe
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\bin\Debug\net6.0\otus-hw-lesson-9.deps.json
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\bin\Debug\net6.0\otus-hw-lesson-9.runtimeconfig.json
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\bin\Debug\net6.0\otus-hw-lesson-9.dll
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\bin\Debug\net6.0\otus-hw-lesson-9.pdb
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.csproj.AssemblyReference.cache
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.AssemblyInfoInputs.cache
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.AssemblyInfo.cs
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.csproj.CoreCompileInputs.cache
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.dll
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\refint\otus-hw-lesson-9.dll
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.pdb
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\otus-hw-lesson-9.genruntimeconfig.cache
+C:\Users\o.rovenskiy\source\repos\otus-lesson-9\otus-hw-lesson-9\obj\Debug\net6.0\ref\otus-hw-lesson-9.dll
