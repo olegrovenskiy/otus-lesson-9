@@ -2,13 +2,11 @@
 
 public class RandomDigitGenerator : IGenerator
 {
-	//private readonly Random _random;
 	public int Min { get; set; }
 	public int Max { get; set; }
 
 	public RandomDigitGenerator()
 	{
-
 	}
 
 	public int GenerateNumber (int min, int max)

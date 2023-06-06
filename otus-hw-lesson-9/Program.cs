@@ -3,10 +3,15 @@ Console.WriteLine("Hello, World!");
 
 var sets = new Settings();
 var rndm = new RandomDigitGenerator();
-//var random = new NumberGenerator(sets);
+
+var rrr = new NumberGenerator(rndm, sets);
+
+
 
 Console.WriteLine($"угадайте число от {sets.MinNumber} до {sets.MaxNumber} за {sets.Steps} попытки");
-var digit = (rndm.GenerateNumber(sets.MinNumber, sets.MaxNumber));
+
+var digit = rrr.GenerateNumber();
+
 
 Console.WriteLine(digit);
 
