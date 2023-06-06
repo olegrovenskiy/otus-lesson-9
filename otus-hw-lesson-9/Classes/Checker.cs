@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Checker
+public class Checker : IChecker
 {
 	public int Input { get; set; }
 	public int ForCheck { get; set; }
@@ -10,9 +10,13 @@ public class Checker
 	{
 		Input = input;
 		ForCheck = forCheck;
-		Output = Input.CompareTo(ForCheck);
+		Output = Check (Input, ForCheck);
 
     }
 
+	public int Check (int input, int forcheck)
+	{
+		return input.CompareTo(forcheck);
+    }
 
 }

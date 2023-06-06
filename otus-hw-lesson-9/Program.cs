@@ -3,7 +3,7 @@ Console.WriteLine("Hello, World!");
 
 var sets = new Settings();
 
-var random = new RandomNumber(sets.MinNumber, sets.MaxNumber);
+var random = new NumberGenerator(sets);
 
 Console.WriteLine($"угадайте число от {sets.MinNumber} до {sets.MaxNumber} за {sets.Steps} попытки");
 
