@@ -2,18 +2,19 @@
 Console.WriteLine("Hello, World!");
 
 var sets = new Settings();
-
-var random = new NumberGenerator(sets);
+var rndm = new RandomDigitGenerator();
+//var random = new NumberGenerator(sets);
 
 Console.WriteLine($"угадайте число от {sets.MinNumber} до {sets.MaxNumber} за {sets.Steps} попытки");
+var digit = (rndm.GenerateNumber(sets.MinNumber, sets.MaxNumber));
 
-Console.WriteLine(random.Number);
+Console.WriteLine(digit);
 
 for (int i = 0; i < sets.Steps; i++)
 {
     Console.WriteLine("Введите число");
     int Input = int.Parse(Console.ReadLine());
-    var dd = new Checker(Input, random.Number);
+    var dd = new Checker(Input, digit);
     var ff = new Messager();
     ff.Message(dd.Output);
     var vv = new Validator(dd.Output);
