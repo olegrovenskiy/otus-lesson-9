@@ -2,7 +2,10 @@
 Console.WriteLine("Hello, World!");
 
 var sets = new Settings();
-var rndm = new RandomDigitGenerator();
+//var rndm = new RandomDigitGenerator();
+var rndm = new RandomDigitGeneratorLiskov();
+
+
 
 var rrr = new NumberGenerator(rndm, sets);
 
